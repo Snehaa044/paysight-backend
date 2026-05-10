@@ -40,10 +40,12 @@ GET    /api/dashboard/summary
 
 You'll need Java 17, Maven, and PostgreSQL installed.
 
-git clone https://gith
-ub.com/Snehaa044/paysight-backend.git
+git clone https://github.com/Snehaa044/paysight-backend.git
 cd paysight-backend
-# set your DB credentials in application.properties
+
+---
+
+# Set your DB credentials in application.properties
 mvn spring-boot:run
 
 ---
